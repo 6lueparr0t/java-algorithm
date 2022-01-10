@@ -395,11 +395,12 @@ public class Reference {
 
     // 백준 기본 문제
     void solution12() {
-        Scanner sc = new Scanner(System.in);
-        int a, b;
-        a = sc.nextInt();
-        b = sc.nextInt();
-        System.out.println(a + b);
+        try (Scanner sc = new Scanner(System.in)) {
+            int a, b;
+            a = sc.nextInt();
+            b = sc.nextInt();
+            System.out.println(a + b);
+        }
     }
 /*
     // 소스 실행전 시간 취득
