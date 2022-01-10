@@ -20,7 +20,7 @@ import static java.util.stream.Collectors.toList;
  * OUTPUT_PATH 때문에 정상 실행안되는 것 같다.
  */
 
-class Result {
+class Result_1_1 {
 
     public static List<Integer> quartiles(List<Integer> arr) {
         // Write your code here
@@ -62,7 +62,7 @@ public class Quartiles {
             .map(Integer::parseInt)
             .collect(toList());
 
-        List<Integer> res = Result.quartiles(data);
+        List<Integer> res = Result_1_1.quartiles(data);
 
         bufferedWriter.write(
             res.stream()

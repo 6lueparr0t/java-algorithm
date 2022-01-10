@@ -27,7 +27,7 @@ import java.util.stream.Stream;
  32.0
 */
 
-class Result {
+class Result_0 {
 
     public static void weightedMean(List<Integer> X, List<Integer> W) {
         // Write your code here        
@@ -58,7 +58,7 @@ public class WeightedMean {
             .map(Integer::parseInt)
             .collect(toList());
 
-        Result.weightedMean(vals, weights);
+            Result_0.weightedMean(vals, weights);
 
         bufferedReader.close();
     }
