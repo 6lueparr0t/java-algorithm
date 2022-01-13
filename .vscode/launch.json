@@ -6,24 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch WeightedMean",
+            "name": "Launch InterquartileRange",
             "request": "launch",
-            "mainClass": "source.hackerrank.WeightedMean",
-            "projectName": "java-algorithm_319ff5f3"
-        },
-        {
-            "type": "java",
-            "name": "Launch HelloWorld",
-            "request": "launch",
-            "mainClass": "source.hackerrank.tutorial.HelloWorld",
-            "projectName": "java-algorithm_319ff5f3"
-        },
-        {
-            "type": "java",
-            "name": "Launch HelloWorld",
-            "request": "launch",
-            "mainClass": "source.HelloWorld",
-            "projectName": "java-algorithm_319ff5f3"
+            "mainClass": "source.hackerrank.InterquartileRange",
+            "projectName": "java-algorithm_8636df8"
         },
         {
             "type": "java",
