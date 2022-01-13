@@ -10,7 +10,28 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 
-class Result {
+/**
+ * https://www.hackerrank.com/domains/tutorials/10-days-of-statistics
+ * 
+ * Day 1-2
+ * 
+ * 사분위수 범위
+ * 
+ * STDIN           Function
+ * -----           --------
+ * 6               arrays size n = 6
+ * 6 12 8 10 20 16 values = [6, 12, 8, 10, 20, 16]
+ * 5 4 3 2 1 5     freqs = [5, 4, 3, 2, 1, 5]
+ * 
+ * 9.0
+ * 
+ * Lower half (L): 6, 6, 6, 6, 6, 8, 8, 8, 10, 10
+ * Upper half (U): 12, 12, 12, 12, 16, 16, 16, 16, 16, 20
+ * 
+ * Q3 - Q1 = ((16+16)/2) - ((6+8)/2) = 16 - 7 = 9
+ * 
+ */
+class Result_1_2 {
 
     /*
      * Complete the 'interQuartile' function below.
@@ -74,7 +95,7 @@ public class InterquartileRange {
             .map(Integer::parseInt)
             .collect(toList());
 
-        Result.interQuartile(val, freq);
+        Result_1_2.interQuartile(val, freq);
 
         bufferedReader.close();
     }

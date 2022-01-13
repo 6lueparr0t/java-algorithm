@@ -13,7 +13,7 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 /*
- * Day 1
+ * Day 1-1
  * 
  * Quartiles (사분위수)
  * 
