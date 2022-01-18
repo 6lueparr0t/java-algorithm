@@ -9,7 +9,15 @@ public class Main {
         int n1 = scan.nextInt();
         int n2 = scan.nextInt();
 
-        System.out.printf("%.9f\n", (double)n1/n2);
+        if(n1 != n2) {
+            if (n1 > n2) {
+                System.out.println(">");
+            } else {
+                System.out.println("<");
+            }
+        } else {
+            System.out.println("==");
+        }
 
         scan.close();
     }
