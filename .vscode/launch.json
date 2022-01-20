@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TwoArrays",
+            "request": "launch",
+            "mainClass": "source.hackerrank.tutorial.TwoArrays",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryNumber",
+            "request": "launch",
+            "mainClass": "source.hackerrank.tutorial.BinaryNumber",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch InterquartileRange",
             "request": "launch",
             "mainClass": "source.hackerrank.InterquartileRange",
