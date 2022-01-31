@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch QueueAndStack",
+            "request": "launch",
+            "mainClass": "source.hackerrank.tutorial.QueueAndStack",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch LinkedList",
             "request": "launch",
             "mainClass": "source.hackerrank.tutorial.LinkedList",
