@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LinkedList",
+            "request": "launch",
+            "mainClass": "source.hackerrank.tutorial.LinkedList",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindBook",
+            "request": "launch",
+            "mainClass": "source.hackerrank.tutorial.FindBook",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch TwoArrays",
             "request": "launch",
             "mainClass": "source.hackerrank.tutorial.TwoArrays",
