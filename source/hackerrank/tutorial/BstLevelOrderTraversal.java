@@ -17,7 +17,7 @@ class BstLevelOrderTraversal{
 
     static void levelOrder(Node root) {
         //Write your code here
-        Queue<Node> queue = new LinkedList();
+        Queue<Node> queue = new LinkedList<>();
         queue.add(root);
         
         String result = "";
