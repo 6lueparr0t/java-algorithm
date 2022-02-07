@@ -44,7 +44,7 @@ class MyBook extends Book {
 }
 // End class
 
-public class FindBook {
+public class D13_FindBook {
    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

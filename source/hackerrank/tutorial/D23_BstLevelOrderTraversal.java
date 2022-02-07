@@ -13,7 +13,7 @@ class Node{
     }
 }
 
-class BstLevelOrderTraversal{
+class D23_BstLevelOrderTraversal{
 
     static void levelOrder(Node root) {
         //Write your code here
@@ -55,13 +55,15 @@ class BstLevelOrderTraversal{
         }
     }
     public static void main(String args[]){
-            Scanner sc=new Scanner(System.in);
-            int T=sc.nextInt();
+            Scanner scanner =new Scanner(System.in);
+            int T = scanner.nextInt();
             Node root=null;
             while(T-->0){
-                int data=sc.nextInt();
+                int data = scanner.nextInt();
                 root=insert(root,data);
             }
+            scanner.close();
+            
             levelOrder(root);
         }	
 }

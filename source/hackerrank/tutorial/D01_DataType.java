@@ -2,7 +2,7 @@ package source.hackerrank.tutorial;
 
 import java.util.Scanner;
 
-public class DataType {
+public class D01_DataType {
 	
     public static void main(String[] args) {
         int i = 4;

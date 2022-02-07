@@ -12,7 +12,7 @@ class Node {
 	
 }
 
-class MoreLinkedList {
+class D24_MoreLinkedList {
 
     public static Node removeDuplicates(Node head) {
         //Write your code here
@@ -58,14 +58,16 @@ class MoreLinkedList {
     }
     public static void main(String args[])
     {
-            Scanner sc=new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
             Node head=null;
-            int T=sc.nextInt();
+            int T = scanner.nextInt();
             while(T-->0){
-                int ele=sc.nextInt();
+                int ele = scanner.nextInt();
                 head=insert(head,ele);
             }
             head=removeDuplicates(head);
+            scanner.close();
+            
             display(head);
 
     }

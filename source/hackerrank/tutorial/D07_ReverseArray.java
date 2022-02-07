@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class ReverseArray {
+public class D07_ReverseArray {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 

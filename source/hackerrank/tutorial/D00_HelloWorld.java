@@ -2,7 +2,7 @@ package source.hackerrank.tutorial;
 
 import java.util.Scanner;
 
-public class HelloWorld {
+public class D00_HelloWorld {
 	public static void main(String[] args) {
         // Create a Scanner object to read input from stdin.
 		Scanner scan = new Scanner(System.in); 

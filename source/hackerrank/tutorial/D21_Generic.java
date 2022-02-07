@@ -18,7 +18,7 @@ class Printer <T> {
     }
 }
 
-public class Generic {
+public class D21_Generic {
     
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);

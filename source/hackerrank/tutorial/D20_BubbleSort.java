@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class BubbleSort {
+public class D20_BubbleSort {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 

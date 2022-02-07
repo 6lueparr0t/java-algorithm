@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch D26_NestedLogic",
+            "request": "launch",
+            "mainClass": "source.hackerrank.tutorial.D26_NestedLogic",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "source.HelloWorld",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch RunningTimeAndComplexity",
             "request": "launch",
             "mainClass": "source.hackerrank.tutorial.RunningTimeAndComplexity",

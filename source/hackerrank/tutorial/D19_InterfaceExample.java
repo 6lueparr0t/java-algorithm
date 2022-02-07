@@ -17,7 +17,7 @@ class Calculator implements AdvancedArithmetic {
     }
 }
 
-class InterfaceExample {
+class D19_InterfaceExample {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

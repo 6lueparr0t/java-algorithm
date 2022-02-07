@@ -10,7 +10,7 @@ class Node{
         left=right=null;
     }
 }
-class BinarySearchTree {
+class D22_BinarySearchTree {
 
 	public static int getHeight(Node root){
       //Write your code here

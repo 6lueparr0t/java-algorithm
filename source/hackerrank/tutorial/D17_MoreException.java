@@ -18,7 +18,7 @@ class Calculator {
     }
 }
 
-class MoreException {
+class D17_MoreException {
     public static void main(String[] args) {
     
         Scanner in = new Scanner(System.in);

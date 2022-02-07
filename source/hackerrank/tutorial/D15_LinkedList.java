@@ -11,7 +11,7 @@ class Node {
     }
 }
 
-class LinkedList {
+class D15_LinkedList {
 
     public static  Node insert(Node head,int data) {
         //Complete this method

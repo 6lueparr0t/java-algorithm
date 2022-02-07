@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class QueueAndStack {
+public class D18_QueueAndStack {
     // Write your code here.
     Stack<Character> stack = new Stack<>();
     Queue<Character> queue = new LinkedList<>();
@@ -35,7 +35,7 @@ public class QueueAndStack {
         char[] s = input.toCharArray();
 
         // Create a Solution object:
-        QueueAndStack p = new QueueAndStack();
+        D18_QueueAndStack p = new D18_QueueAndStack();
 
         // Enqueue/Push all chars to their respective data structures:
         for (char c : s) {

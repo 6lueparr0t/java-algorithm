@@ -8,7 +8,7 @@ import java.util.List;
 
 // 2 진수로 표현했을 때, 연속되는 1의 숫자를 카운팅
 // input : 125 = 1111101(2) -> out : 5
-public class BinaryNumber {
+public class D10_BinaryNumber {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
