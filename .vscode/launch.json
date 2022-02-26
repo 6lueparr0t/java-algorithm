@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Lv1_stack_queue",
+            "request": "launch",
+            "mainClass": "source.programmers.Lv1_stack_queue",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch D28_Regex",
+            "request": "launch",
+            "mainClass": "source.hackerrank.tutorial.D28_Regex",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lv1_hash",
+            "request": "launch",
+            "mainClass": "source.programmers.Lv1_hash",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch D26_NestedLogic",
             "request": "launch",
             "mainClass": "source.hackerrank.tutorial.D26_NestedLogic",
