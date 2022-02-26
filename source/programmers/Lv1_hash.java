@@ -10,19 +10,19 @@ public class Lv1_hash {
         String answer = "";
         HashMap<String, Integer> hm = new HashMap<>();
 
-        System.out.printf("HashMap 리스트를 셋팅한다.\n");
+        // System.out.printf("HashMap 리스트를 셋팅한다.\n");
         for (String player : participant) {
             hm.put(player, hm.getOrDefault(player, 0) + 1);
             System.out.printf("Key : %s | Value : %d\n", player, hm.getOrDefault(player, 0));
         }
 
-        System.out.printf("HashMap 에서 completion 을 뺀다.\n");
+        // System.out.printf("HashMap 에서 completion 을 뺀다.\n");
         for (String player : completion) {
             hm.put(player, hm.get(player) - 1);
             System.out.printf("Key : %s | Value : %d\n", player, hm.getOrDefault(player, 0));
         }
 
-        System.out.printf("HashMap 에서 키만 가져와 값이 0 이 아닌 것을 리턴한다.\n");
+        // System.out.printf("HashMap 에서 키만 가져와 값이 0 이 아닌 것을 리턴한다.\n");
         for (String key : hm.keySet()) {
             System.out.printf("%s : %d\n", key, hm.get(key));
             if (hm.get(key) != 0){

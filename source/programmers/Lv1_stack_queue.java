@@ -6,20 +6,24 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 public class Lv1_stack_queue {
-    public static int[] solution(int[] progresses, int[] speeds) {
+        public static int[] solution(int[] progresses, int[] speeds) {
         int[] dayOfend = new int[100];
-
         int day = -1;
-        for(int i=0; i < progresses.length; i++) {
-            while(progresses[i] + (day * speeds[i]) < 100) {
+        for(int i=0; i<progresses.length; i++) {
+            // System.out.printf("progress: %d\n", progresses[i] + (day*speeds[i]));
+            while(progresses[i] + (day*speeds[i]) < 100) {
+                // System.out.printf("%d 번째 날 : %d < 100\n", day, progresses[i] + (day*speeds[i]));
                 day++;
             }
-
+            // System.out.printf("%d 번째 날 : %d 번째 작업 완성\n", day, i+1);
             dayOfend[day]++;
         }
 
-        return Arrays.stream(dayOfend).filter(i -> i!=0).toArray();
-    }
+    // for(int i=0; i<dayOfend.length; i++) {
+    //     System.out.printf("dayOfend[%d] : %d\n", i, dayOfend[i]);
+    // }
+    return Arrays.stream(dayOfend).filter(i -> i!=0).toArray();
+}
 
     public static void main(String args[]) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -44,23 +48,3 @@ public class Lv1_stack_queue {
         bufferedReader.close();
     }
 }
-
-
-// public static int[] solution(int[] progresses, int[] speeds) {
-//     int[] dayOfend = new int[100];
-//     int day = -1;
-//     for(int i=0; i<progresses.length; i++) {
-//         System.out.printf("progress: %d\n", progresses[i] + (day*speeds[i]));
-//         while(progresses[i] + (day*speeds[i]) < 100) {
-//             System.out.printf("%d 번째 날 : %d < 100\n", day, progresses[i] + (day*speeds[i]));
-//             day++;
-//         }
-//         System.out.printf("%d 번째 날 : %d 번째 작업 완성\n", day, i+1);
-//         dayOfend[day]++;
-//     }
-
-//     // for(int i=0; i<dayOfend.length; i++) {
-//     //     System.out.printf("dayOfend[%d] : %d\n", i, dayOfend[i]);
-//     // }
-//     return Arrays.stream(dayOfend).filter(i -> i!=0).toArray();
-// }
