@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Lv1_exhaustive",
+            "request": "launch",
+            "mainClass": "source.programmers.Lv1_exhaustive",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lv1_sort",
+            "request": "launch",
+            "mainClass": "source.programmers.Lv1_sort",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lv1_heap",
+            "request": "launch",
+            "mainClass": "source.programmers.Lv1_heap",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch Lv1_stack_queue",
             "request": "launch",
             "mainClass": "source.programmers.Lv1_stack_queue",
