@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Lv1_binary",
+            "request": "launch",
+            "mainClass": "source.programmers.Lv1_binary",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lv1_dynamic",
+            "request": "launch",
+            "mainClass": "source.programmers.Lv1_dynamic",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lv1_greedy",
+            "request": "launch",
+            "mainClass": "source.programmers.Lv1_greedy",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch Lv1_exhaustive",
             "request": "launch",
             "mainClass": "source.programmers.Lv1_exhaustive",
