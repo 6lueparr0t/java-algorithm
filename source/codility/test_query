@@ -1,0 +1,23 @@
+create table test_groups (name varchar(100), test_value integer);
+		insert into test_groups (name, test_value) values ('a', 10);
+		insert into test_groups (name, test_value) values ('b', 10);
+		insert into test_groups (name, test_value) values ('c', 10);
+		insert into test_groups (name, test_value) values ('d', 10);
+
+
+create table test_cases (id integer, group_name varchar(100), status varchar(100));
+		insert into test_cases (id, group_name, status) values (1, 'a', 'OK');
+		insert into test_cases (id, group_name, status) values (1, 'a', 'ERROR');
+		insert into test_cases (id, group_name, status) values (2, 'b', 'OK');
+		insert into test_cases (id, group_name, status) values (2, 'b', 'ERROR');
+		insert into test_cases (id, group_name, status) values (3, 'c', 'OK');
+		insert into test_cases (id, group_name, status) values (3, 'c', 'ERROR');
+        
+    
+
+
+-- write your code in SQLite 3.11.0
+select total.name name, count(total.status) all_test_cases, count(case when status='OK' then 1 end) passed_test_cases, (count(case when status='OK' then 1 end)*total.test_value) total_value
+from
+(SELECT * FROM test_groups as a LEFT JOIN test_cases as b ON a.name = b.group_name) as total group by total.name
+order by total_value desc, name asc

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Editor",
+            "request": "launch",
+            "mainClass": "source.Editor",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch Lv1_binary",
             "request": "launch",
             "mainClass": "source.programmers.Lv1_binary",
