@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringUnCompressed",
+            "request": "launch",
+            "mainClass": "source.programmers.exam.StringUnCompressed",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch Editor",
             "request": "launch",
             "mainClass": "source.Editor",
