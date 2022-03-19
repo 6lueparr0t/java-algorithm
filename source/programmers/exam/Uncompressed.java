@@ -30,10 +30,11 @@ public class Uncompressed {
                     return "";
                 }
 
-                if(tmp.equals("")) {
+                if(tmp.equals("") || sw == 0) {
+                    word += tmp;
                     word = word.repeat(n);
                 } else {
-                    word = word + tmp.repeat(n);
+                    word += tmp.repeat(n);
                 }
                 tmp = "";
                 continue;
@@ -53,7 +54,7 @@ public class Uncompressed {
         return answer;
     }
     public static void main(String[] args) {
-        String answer = solution("2(2(hi)3(co))abcdefu3(bo)");
+        String answer = solution("2(2(hi)2(bo))xxx2(bo)");
         System.out.println(answer);
     }
 }
