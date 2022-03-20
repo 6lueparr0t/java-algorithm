@@ -23,19 +23,15 @@ public class Uncompressed {
             if(s.equals(")")) {
                 sw--;
 
+                String tmpN = stack.pop();
                 int n = 0;
-                try {
-                    n = Integer.parseInt(stack.pop());
-                } catch(NumberFormatException e) {
+                if(!(tmpN.charAt(0) >= '0' && tmpN.charAt(0) <= '9')) {
                     return "";
                 }
+                n = Integer.parseInt(tmpN);
 
-                if(tmp.equals("") || sw == 0) {
-                    word += tmp;
-                    word = word.repeat(n);
-                } else {
-                    word += tmp.repeat(n);
-                }
+                word += tmp;
+                word += word.repeat(n-1);
                 tmp = "";
                 continue;
             }
@@ -54,7 +50,8 @@ public class Uncompressed {
         return answer;
     }
     public static void main(String[] args) {
-        String answer = solution("2(2(hi)2(bo))xxx2(bo)");
+        String answer = solution("2(2(2(c)b)a)x2(d)");
+        // aabaabccaabaabcc
         System.out.println(answer);
     }
 }

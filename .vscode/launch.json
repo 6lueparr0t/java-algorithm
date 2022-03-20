@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main4375",
+            "request": "launch",
+            "mainClass": "source.backjoon.Main4375",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch Uncompressed",
             "request": "launch",
             "mainClass": "source.programmers.exam.Uncompressed",
