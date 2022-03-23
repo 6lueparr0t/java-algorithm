@@ -1,16 +1,11 @@
 package source.backjoon;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 
 public class Main4375 {
 
-    static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-    static StringBuilder sb = new StringBuilder();
-    
     static void solve() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = null;
@@ -20,7 +15,6 @@ public class Main4375 {
             int tmp = 1;
             
             while(true) {
-                // N의 배수 이기 때문에 100001111 같은건 안만들어지고, 
                 // 모든 자리수가 1인 n의 배수가 항상 만들어짐
                 if(tmp % N == 0) {
                     break;
@@ -35,7 +29,6 @@ public class Main4375 {
         }
         
         br.close();
-        bw.close();
     }
     
     public static void main(String[] args) throws IOException {
