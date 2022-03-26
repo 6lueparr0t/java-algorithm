@@ -1,4 +1,4 @@
-package lecture.operator;
+package lecture.java100.operator;
 
 // 관계 연산자에 대해서 설명해보시오.
 // 이 문제는 자바의 기본적인 관계 연산자에 대해서 알고 있는지를 묻는 문제이다.

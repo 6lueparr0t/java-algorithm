@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DigitsNo",
+            "request": "launch",
+            "mainClass": "lecture.algorithm.ch01.DigitsNo",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumForPos",
+            "request": "launch",
+            "mainClass": "lecture.algorithm.ch01.SumForPos",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumFor",
+            "request": "launch",
+            "mainClass": "lecture.algorithm.ch01.SumFor",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Median",
+            "request": "launch",
+            "mainClass": "lecture.algorithm.ch01.Median",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxExam",
+            "request": "launch",
+            "mainClass": "lecture.algorithm.ch01.MaxExam",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Max3",
+            "request": "launch",
+            "mainClass": "lecture.algorithm.ch01.Max3",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch Line",
             "request": "launch",
             "mainClass": "source.programmers.exam.Line",

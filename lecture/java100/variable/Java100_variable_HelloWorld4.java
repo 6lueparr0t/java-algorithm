@@ -1,4 +1,4 @@
-package lecture.variable;
+package lecture.java100.variable;
 
 public class Java100_variable_HelloWorld4 {
 	public static void main(String[] args) {

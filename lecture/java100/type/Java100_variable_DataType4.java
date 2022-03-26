@@ -1,4 +1,4 @@
-package lecture.type;
+package lecture.java100.type;
 
 // System.out.print(), println(), printf() 등에 대해서 예제를 통해 설명해보시오.
 // 이 문제는 출력시 많이 사용되는 print(), println(), printf() 형식에 대해서 알고 있는지를 묻는 문제이다.

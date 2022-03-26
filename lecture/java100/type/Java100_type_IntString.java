@@ -1,4 +1,4 @@
-package lecture.type;
+package lecture.java100.type;
 
 // 정수형(int)을 문자열(String)로 변환하여 정수의 자릿수를 구하는 코드를 구현해보시오.
 // 정수 12345를 입력하면"자릿수가 "5"로 출력되도록 한다.

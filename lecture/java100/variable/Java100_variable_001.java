@@ -1,4 +1,4 @@
-package lecture.variable;
+package lecture.java100.variable;
 
 // 변수와 변수 선언이란 무엇이고, 변수의 용도와 왜 필요한지 설명해보시오.
 // 1. 변수란 무엇인가?

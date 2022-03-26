@@ -1,4 +1,4 @@
-package lecture.type;
+package lecture.java100.type;
 
 // 자바의 Primitive Data Type의 바이트 크기와 비트 크기를 출력하는 코드를 구현하시오.
 // 정수형 타입과 문자형 타입에 대해서만 구현한다.

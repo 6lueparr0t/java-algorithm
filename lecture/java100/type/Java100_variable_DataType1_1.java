@@ -1,4 +1,4 @@
-package lecture.type;
+package lecture.java100.type;
 
 // 정수, 실수, 문자형 타입의 변수 사용에서 틀린 곳을 찾아서 모두 수정하시오.
 // 혹, 에러가 안나더라도 올바르게 수정해주시오.

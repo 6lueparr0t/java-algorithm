@@ -1,4 +1,4 @@
-package lecture.type;
+package lecture.java100.type;
 
 // 정수형 변수를 문자형으로 형(Type) 변환시켜서 출력하면 어떤 결과가 나오는지 말해보시오.
 // 아래 코드의 결과를 예상하여 말해보시오.
