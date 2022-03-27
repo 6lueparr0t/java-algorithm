@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Edit",
+            "request": "launch",
+            "mainClass": "source.Edit",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch DigitsNo",
             "request": "launch",
             "mainClass": "lecture.algorithm.ch01.DigitsNo",
