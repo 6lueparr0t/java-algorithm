@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Triangle",
+            "request": "launch",
+            "mainClass": "lecture.algorithm.ch01.Triangle",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Square",
+            "request": "launch",
+            "mainClass": "lecture.algorithm.ch01.Square",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multi99TableEx",
+            "request": "launch",
+            "mainClass": "lecture.algorithm.ch01.Multi99TableEx",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Digits",
+            "request": "launch",
+            "mainClass": "lecture.algorithm.ch01.Digits",
+            "projectName": "java-algorithm_8636df8"
+        },
+        {
+            "type": "java",
             "name": "Launch Edit",
             "request": "launch",
             "mainClass": "source.Edit",

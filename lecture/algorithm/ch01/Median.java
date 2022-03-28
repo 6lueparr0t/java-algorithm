@@ -28,5 +28,6 @@ public class Median {
         System.out.print("c 의 입력값 : "); int c = scan.nextInt();
 
         System.out.printf("%d\n", med3(a,b,c));
+        scan.close();
     }
 }
