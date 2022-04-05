@@ -4,256 +4,333 @@
     // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
     "version": "0.2.0",
     "configurations": [
-        {
-            "type": "java",
-            "name": "Launch Triangle",
-            "request": "launch",
-            "mainClass": "lecture.algorithm.ch01.Triangle",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Square",
-            "request": "launch",
-            "mainClass": "lecture.algorithm.ch01.Square",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Multi99TableEx",
-            "request": "launch",
-            "mainClass": "lecture.algorithm.ch01.Multi99TableEx",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Digits",
-            "request": "launch",
-            "mainClass": "lecture.algorithm.ch01.Digits",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Edit",
-            "request": "launch",
-            "mainClass": "source.Edit",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch DigitsNo",
-            "request": "launch",
-            "mainClass": "lecture.algorithm.ch01.DigitsNo",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch SumForPos",
-            "request": "launch",
-            "mainClass": "lecture.algorithm.ch01.SumForPos",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch SumFor",
-            "request": "launch",
-            "mainClass": "lecture.algorithm.ch01.SumFor",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Median",
-            "request": "launch",
-            "mainClass": "lecture.algorithm.ch01.Median",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch MaxExam",
-            "request": "launch",
-            "mainClass": "lecture.algorithm.ch01.MaxExam",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Max3",
-            "request": "launch",
-            "mainClass": "lecture.algorithm.ch01.Max3",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Line",
-            "request": "launch",
-            "mainClass": "source.programmers.exam.Line",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main4375",
-            "request": "launch",
-            "mainClass": "source.backjoon.Main4375",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Uncompressed",
-            "request": "launch",
-            "mainClass": "source.programmers.exam.Uncompressed",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch StringUnCompressed",
-            "request": "launch",
-            "mainClass": "source.programmers.exam.StringUnCompressed",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Editor",
-            "request": "launch",
-            "mainClass": "source.Editor",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Lv1_binary",
-            "request": "launch",
-            "mainClass": "source.programmers.Lv1_binary",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Lv1_dynamic",
-            "request": "launch",
-            "mainClass": "source.programmers.Lv1_dynamic",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Lv1_greedy",
-            "request": "launch",
-            "mainClass": "source.programmers.Lv1_greedy",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Lv1_exhaustive",
-            "request": "launch",
-            "mainClass": "source.programmers.Lv1_exhaustive",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Lv1_sort",
-            "request": "launch",
-            "mainClass": "source.programmers.Lv1_sort",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Lv1_heap",
-            "request": "launch",
-            "mainClass": "source.programmers.Lv1_heap",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Lv1_stack_queue",
-            "request": "launch",
-            "mainClass": "source.programmers.Lv1_stack_queue",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch D28_Regex",
-            "request": "launch",
-            "mainClass": "source.hackerrank.tutorial.D28_Regex",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Lv1_hash",
-            "request": "launch",
-            "mainClass": "source.programmers.Lv1_hash",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch D26_NestedLogic",
-            "request": "launch",
-            "mainClass": "source.hackerrank.tutorial.D26_NestedLogic",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch HelloWorld",
-            "request": "launch",
-            "mainClass": "source.HelloWorld",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch RunningTimeAndComplexity",
-            "request": "launch",
-            "mainClass": "source.hackerrank.tutorial.RunningTimeAndComplexity",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Generic",
-            "request": "launch",
-            "mainClass": "source.hackerrank.tutorial.Generic",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch QueueAndStack",
-            "request": "launch",
-            "mainClass": "source.hackerrank.tutorial.QueueAndStack",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch LinkedList",
-            "request": "launch",
-            "mainClass": "source.hackerrank.tutorial.LinkedList",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch FindBook",
-            "request": "launch",
-            "mainClass": "source.hackerrank.tutorial.FindBook",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch TwoArrays",
-            "request": "launch",
-            "mainClass": "source.hackerrank.tutorial.TwoArrays",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch BinaryNumber",
-            "request": "launch",
-            "mainClass": "source.hackerrank.tutorial.BinaryNumber",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch InterquartileRange",
-            "request": "launch",
-            "mainClass": "source.hackerrank.InterquartileRange",
-            "projectName": "java-algorithm_8636df8"
-        },
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${fileBasename}"
-        }
+      {
+        "type": "java",
+        "name": "Launch PrimeNumber3",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.PrimeNumber3",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch PrimeNumber2",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.PrimeNumber2",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch PrimeNumber1",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.PrimeNumber1",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch CardConvRev",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.CardConvRev",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch RcopyArray",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.RcopyArray",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch ReverseArray",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.ReverseArray",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch MaxOfArrayRand",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.MaxOfArrayRand",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch MaxOfArray",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.MaxOfArray",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch CloneArray",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.CloneArray",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch IntArrayInit",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.IntArrayInit",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch IntArray",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.IntArray",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Triangle",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch01.Triangle",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Square",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch01.Square",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Multi99TableEx",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch01.Multi99TableEx",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Digits",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch01.Digits",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Edit",
+        "request": "launch",
+        "mainClass": "source.Edit",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch DigitsNo",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch01.DigitsNo",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch SumForPos",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch01.SumForPos",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch SumFor",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch01.SumFor",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Median",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch01.Median",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch MaxExam",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch01.MaxExam",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Max3",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch01.Max3",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Line",
+        "request": "launch",
+        "mainClass": "source.programmers.exam.Line",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Main4375",
+        "request": "launch",
+        "mainClass": "source.backjoon.Main4375",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Uncompressed",
+        "request": "launch",
+        "mainClass": "source.programmers.exam.Uncompressed",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch StringUnCompressed",
+        "request": "launch",
+        "mainClass": "source.programmers.exam.StringUnCompressed",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Editor",
+        "request": "launch",
+        "mainClass": "source.Editor",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Lv1_binary",
+        "request": "launch",
+        "mainClass": "source.programmers.Lv1_binary",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Lv1_dynamic",
+        "request": "launch",
+        "mainClass": "source.programmers.Lv1_dynamic",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Lv1_greedy",
+        "request": "launch",
+        "mainClass": "source.programmers.Lv1_greedy",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Lv1_exhaustive",
+        "request": "launch",
+        "mainClass": "source.programmers.Lv1_exhaustive",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Lv1_sort",
+        "request": "launch",
+        "mainClass": "source.programmers.Lv1_sort",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Lv1_heap",
+        "request": "launch",
+        "mainClass": "source.programmers.Lv1_heap",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Lv1_stack_queue",
+        "request": "launch",
+        "mainClass": "source.programmers.Lv1_stack_queue",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch D28_Regex",
+        "request": "launch",
+        "mainClass": "source.hackerrank.tutorial.D28_Regex",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Lv1_hash",
+        "request": "launch",
+        "mainClass": "source.programmers.Lv1_hash",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch D26_NestedLogic",
+        "request": "launch",
+        "mainClass": "source.hackerrank.tutorial.D26_NestedLogic",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch HelloWorld",
+        "request": "launch",
+        "mainClass": "source.HelloWorld",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch RunningTimeAndComplexity",
+        "request": "launch",
+        "mainClass": "source.hackerrank.tutorial.RunningTimeAndComplexity",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Generic",
+        "request": "launch",
+        "mainClass": "source.hackerrank.tutorial.Generic",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch QueueAndStack",
+        "request": "launch",
+        "mainClass": "source.hackerrank.tutorial.QueueAndStack",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch LinkedList",
+        "request": "launch",
+        "mainClass": "source.hackerrank.tutorial.LinkedList",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch FindBook",
+        "request": "launch",
+        "mainClass": "source.hackerrank.tutorial.FindBook",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch TwoArrays",
+        "request": "launch",
+        "mainClass": "source.hackerrank.tutorial.TwoArrays",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch BinaryNumber",
+        "request": "launch",
+        "mainClass": "source.hackerrank.tutorial.BinaryNumber",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch InterquartileRange",
+        "request": "launch",
+        "mainClass": "source.hackerrank.InterquartileRange",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Current File",
+        "request": "launch",
+        "mainClass": "${fileBasename}"
+      }
     ]
 }
