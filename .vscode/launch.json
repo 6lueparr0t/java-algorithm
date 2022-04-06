@@ -6,6 +6,27 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch ArraySumForIn",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.ArraySumForIn",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch DayOfYear",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.DayOfYear",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Int2DArray",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.Int2DArray",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch PrimeNumber3",
         "request": "launch",
         "mainClass": "lecture.algorithm.ch02.PrimeNumber3",

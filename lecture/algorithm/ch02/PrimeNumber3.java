@@ -2,17 +2,17 @@ package lecture.algorithm.ch02;
 
 public class PrimeNumber3 {
   public static void main(String[] args) {
-    int counter = 0;
-    int ptr = 0;
-    int[] prime = new int[500];
+    int counter = 0;              // 곱셈과 나눗셈의 횟수
+    int ptr = 0;                  // 찾은 소수의 개수
+    int[] prime = new int[500];   // 소수를 저장하는 배열
 
     prime[ptr++] = 2;
     prime[ptr++] = 3;
 
-    for (int n=5; n<=1000; n+=2) {
+    for(int n=0; n<1000; n++) {
       boolean flag = false;
-      for (int i=1; prime[i] * prime[i] < n; i++) {
-        counter +=2;
+      for (int i=1; prime[i]*prime[i]<=n; i++) {
+        counter += 2;
 
         if (n % prime[i] == 0) {
           flag = true;
@@ -20,7 +20,7 @@ public class PrimeNumber3 {
         }
       }
 
-      if (!flag) {
+      if (flag == true) {
         prime[ptr++] = n;
         counter++;
       }

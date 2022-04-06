@@ -27,3 +27,46 @@ if(sum == 0) {
 } else {
     console.log(false);
 }
+
+// <!-- Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+// An input string is valid if:
+
+// 1. Open brackets must be closed by the same type of brackets.
+// 2. Open brackets must be closed in the correct order.
+
+// *Input:* s = "()[]{}"
+// *Output:* true
+
+// *Input:* s = "([)]"
+// *Output:* false
+
+// class Solution {
+//     public boolean isValid(String s) {
+//         char[] open = {'(', '[', '{'};
+//         char[] close = {')', ']', '}'};
+        
+//         int sw = 0;
+//         Stack<Charactor> lastBracket = new Stack<Char;
+        
+//         char[] list = s.toCharArray();
+        
+//         for (int i=0; i<list.length; i++) {
+//             if (open.indexOf(list[i]) > 0) {
+//                 sw++;
+//                 lastBracket.add(list[i]);
+//                 continue;
+//             }
+            
+//             if (close.indexOf(list[i]) > 0) {
+//                 if (open.indexOflastBracket.pop() == close.indexOf(input[i])) sw--;
+//             }
+//         }
+        
+//         if (sw != 0) {
+//             return false;
+//         }
+        
+//         return true;
+//     }
+// }
+//  -->
