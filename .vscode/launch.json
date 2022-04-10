@@ -6,6 +6,20 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch YMD",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.YMD",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch PhysicalExamination",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch02.PhysicalExamination",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch ArraySumForIn",
         "request": "launch",
         "mainClass": "lecture.algorithm.ch02.ArraySumForIn",
