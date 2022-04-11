@@ -6,6 +6,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch SeqSearchSen",
+        "request": "launch",
+        "mainClass": "lecture.algorithm.ch03.SeqSearchSen",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch YMD",
         "request": "launch",
         "mainClass": "lecture.algorithm.ch02.YMD",
