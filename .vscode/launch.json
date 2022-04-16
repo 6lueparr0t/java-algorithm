@@ -6,6 +6,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch BinSearch",
+        "request": "launch",
+        "mainClass": "BinSearch",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch SeqSearchSen",
         "request": "launch",
         "mainClass": "lecture.algorithm.ch03.SeqSearchSen",
