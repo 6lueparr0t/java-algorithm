@@ -1,4 +1,4 @@
-package lecture.algorithm.ch02;
+
 
 import java.util.Scanner;
 

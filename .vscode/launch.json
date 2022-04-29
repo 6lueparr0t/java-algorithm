@@ -6,6 +6,34 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch Java100_operator_ArithmeticOperators",
+        "request": "launch",
+        "mainClass": "Java100_operator_ArithmeticOperators",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch SearchIndex",
+        "request": "launch",
+        "mainClass": "SearchIndex",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch SeqSearchSen",
+        "request": "launch",
+        "mainClass": "SeqSearchSen",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch YMD",
+        "request": "launch",
+        "mainClass": "YMD",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch BinSearch",
         "request": "launch",
         "mainClass": "BinSearch",

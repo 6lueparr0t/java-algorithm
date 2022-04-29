@@ -1,5 +1,3 @@
-package lecture.algorithm.ch01;
-
 import java.util.Scanner;
 
 public class Square {

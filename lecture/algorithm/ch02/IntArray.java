@@ -1,5 +1,3 @@
-package lecture.algorithm.ch02;
-
 public class IntArray {
   public static void main(String[] args) {
     int[] a = new int[5];

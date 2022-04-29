@@ -1,5 +1,3 @@
-package source.hackerrank.tutorial;
-
 import java.util.Scanner;
 
 //Write your code here

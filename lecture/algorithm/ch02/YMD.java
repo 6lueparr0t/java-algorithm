@@ -1,5 +1,3 @@
-package lecture.algorithm.ch02;
-
 import java.util.Scanner;
 
 public class YMD {
@@ -55,6 +53,11 @@ public class YMD {
 
     while(nYmd.d < 1) {
         nYmd.m--;
+        if (nYmd.m < 1) {
+          nYmd.y--;
+          nYmd.m = 12;
+        }
+        
         nYmd.d = nYmd.d + mdays[isLeap][(nYmd.m-1)];
     }
     

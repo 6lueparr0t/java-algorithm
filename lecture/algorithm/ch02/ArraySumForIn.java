@@ -1,4 +1,4 @@
-package lecture.algorithm.ch02;
+
 
 public class ArraySumForIn {
   public static void main(String[] args) {

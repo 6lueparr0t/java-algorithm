@@ -1,5 +1,3 @@
-package source.programmers.exam;
-
 import java.util.Stack;
 
 public class Uncompressed {

@@ -1,5 +1,3 @@
-package source.hackerrank.tutorial;
-
 import java.util.Scanner;
 
 // Referenced : https://www.hackerrank.com/challenges/30-running-time-and-complexity/editorial

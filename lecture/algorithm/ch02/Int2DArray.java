@@ -1,5 +1,3 @@
-package lecture.algorithm.ch02;
-
 public class Int2DArray {
   public static void main(String[] args) {
     int[][] x = new int[2][4];

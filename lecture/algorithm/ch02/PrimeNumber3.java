@@ -1,5 +1,3 @@
-package lecture.algorithm.ch02;
-
 public class PrimeNumber3 {
   public static void main(String[] args) {
     int counter = 0;              // 곱셈과 나눗셈의 횟수

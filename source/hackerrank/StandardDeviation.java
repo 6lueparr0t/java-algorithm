@@ -1,5 +1,3 @@
-package source.hackerrank;
-
 import static java.util.stream.Collectors.toList;
 
 import java.io.BufferedReader;

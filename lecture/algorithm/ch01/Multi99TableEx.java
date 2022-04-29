@@ -1,5 +1,3 @@
-package lecture.algorithm.ch01;
-
 public class Multi99TableEx {
     public static void main(String[] args) {
 

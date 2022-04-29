@@ -1,5 +1,3 @@
-package source.programmers.exam;
-
 import java.util.Arrays;
 import java.util.Comparator;
 

@@ -1,5 +1,3 @@
-package lecture.algorithm.ch01;
-
 public class MaxExam {
     public static int max4(int a, int b, int c, int d) {
         int max = a;

@@ -1,5 +1,3 @@
-package source.hackerrank.tutorial;
-
 import java.util.Scanner;
 
 public class D06_LetsReview {

@@ -1,5 +1,3 @@
-package lecture.algorithm.ch02;
-
 public class PhysicalExamination {
   static final int VMAX = 20; //시력 분포(0.0 에서 0.1 단위로 21개)
 
