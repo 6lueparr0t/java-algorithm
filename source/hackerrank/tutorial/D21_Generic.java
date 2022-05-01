@@ -19,25 +19,29 @@ class Printer <T> {
 public class D21_Generic {
     
     public static void main(String args[]){
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
         Integer[] intArray = new Integer[n];
         for (int i = 0; i < n; i++) {
-            intArray[i] = scanner.nextInt();
+            intArray[i] = scan.nextInt();
         }
 
-        n = scanner.nextInt();
+        n = scan.nextInt();
         String[] stringArray = new String[n];
         for (int i = 0; i < n; i++) {
-            stringArray[i] = scanner.next();
+            stringArray[i] = scan.next();
         }
         
         Printer<Integer> intPrinter = new Printer<Integer>();
         Printer<String> stringPrinter = new Printer<String>();
-        intPrinter.printArray( intArray  );
+        
+        intPrinter.printArray( intArray );
         stringPrinter.printArray( stringArray );
+
         if(Printer.class.getDeclaredMethods().length > 1){
             System.out.println("The Printer class should only have 1 method named printArray.");
         }
+
+        scan.close();
     } 
 }

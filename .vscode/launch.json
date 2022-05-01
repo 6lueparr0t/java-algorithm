@@ -6,6 +6,48 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch GenericClassTester",
+        "request": "launch",
+        "mainClass": "GenericClassTester",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch BinarySearchTester",
+        "request": "launch",
+        "mainClass": "BinarySearchTester",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch PhysExamSearch",
+        "request": "launch",
+        "mainClass": "PhysExamSearch",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch StringBinarySearch",
+        "request": "launch",
+        "mainClass": "StringBinarySearch",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch D00_HelloWorld",
+        "request": "launch",
+        "mainClass": "D00_HelloWorld",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Main4375",
+        "request": "launch",
+        "mainClass": "Main4375",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch Java100_operator_ArithmeticOperators",
         "request": "launch",
         "mainClass": "Java100_operator_ArithmeticOperators",
@@ -240,13 +282,6 @@
         "name": "Launch Line",
         "request": "launch",
         "mainClass": "source.programmers.exam.Line",
-        "projectName": "java-algorithm_8636df8"
-      },
-      {
-        "type": "java",
-        "name": "Launch Main4375",
-        "request": "launch",
-        "mainClass": "source.backjoon.Main4375",
         "projectName": "java-algorithm_8636df8"
       },
       {
