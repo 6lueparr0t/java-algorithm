@@ -6,6 +6,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch Java92334",
+        "request": "launch",
+        "mainClass": "Java92334",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch GenericClassTester",
         "request": "launch",
         "mainClass": "GenericClassTester",
