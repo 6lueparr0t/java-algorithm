@@ -6,6 +6,20 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch lesson1_binaryGap",
+        "request": "launch",
+        "mainClass": "lesson1_binaryGap",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch IntAryQueue",
+        "request": "launch",
+        "mainClass": "IntAryQueue",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch IntStackTester",
         "request": "launch",
         "mainClass": "IntStackTester",
