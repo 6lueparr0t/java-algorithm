@@ -6,6 +6,27 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch SmallestNumber",
+        "request": "launch",
+        "mainClass": "exam.SmallestNumber",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Java12948",
+        "request": "launch",
+        "mainClass": "Java12948",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Java12954",
+        "request": "launch",
+        "mainClass": "Java12954",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch lesson1_binaryGap",
         "request": "launch",
         "mainClass": "lesson1_binaryGap",

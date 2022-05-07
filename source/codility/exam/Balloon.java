@@ -1,3 +1,4 @@
+package exam;
 public class Balloon {
     public static void main(String[] args) {
         String s = "QAWABAWONL";

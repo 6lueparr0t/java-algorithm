@@ -13,9 +13,6 @@ create table test_cases (id integer, group_name varchar(100), status varchar(100
 		insert into test_cases (id, group_name, status) values (3, 'c', 'OK');
 		insert into test_cases (id, group_name, status) values (3, 'c', 'ERROR');
         
-    
-
-
 -- write your code in SQLite 3.11.0
 select total.name name, count(total.status) all_test_cases, count(case when status='OK' then 1 end) passed_test_cases, (count(case when status='OK' then 1 end)*total.test_value) total_value
 from

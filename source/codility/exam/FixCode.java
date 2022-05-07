@@ -1,3 +1,4 @@
+package exam;
 public class FixCode {
     public static boolean solution(int[] A, int K) {
         int n = A.length;

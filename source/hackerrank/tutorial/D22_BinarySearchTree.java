@@ -51,5 +51,7 @@ class D22_BinarySearchTree {
         }
         int height=getHeight(root);
         System.out.println(height);
+
+        sc.close();
     }
 }

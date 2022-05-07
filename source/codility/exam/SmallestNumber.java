@@ -1,3 +1,4 @@
+package exam;
 public class SmallestNumber {
     public static int sum(int num) {
         int sum = 0;

@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class D01_DataType {
 	
     public static void main(String[] args) {
-        int i = 4;
-        double d = 4.0;
+        // int i = 4;
+        // double d = 4.0;
         String s = "HackerRank ";
 		
         Scanner scan = new Scanner(System.in);
