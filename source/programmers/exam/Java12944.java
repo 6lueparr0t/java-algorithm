@@ -9,5 +9,8 @@ public class Java12944 {
     }
 
     return sum / arr.length;
+
+    // 스트림을 쓰는 방법
+    // return (int) Arrays.stream(array).average().orElse(0);
   }
 }
