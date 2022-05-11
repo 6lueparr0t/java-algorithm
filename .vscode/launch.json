@@ -6,6 +6,20 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch Java00004",
+        "request": "launch",
+        "mainClass": "Java00004",
+        "projectName": "java-algorithm_319ff5f3"
+      },
+      {
+        "type": "java",
+        "name": "Launch Java00002",
+        "request": "launch",
+        "mainClass": "Java00002",
+        "projectName": "java-algorithm_319ff5f3"
+      },
+      {
+        "type": "java",
         "name": "Launch Java00002",
         "request": "launch",
         "mainClass": "Java00002",

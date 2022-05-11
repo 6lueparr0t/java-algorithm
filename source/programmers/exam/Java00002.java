@@ -1,4 +1,7 @@
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class Java00002 {
@@ -51,5 +54,8 @@ public class Java00002 {
 
     int[] stats2 = {6, 2, 3, 4, 1, 5}; // [6, (2,3,4,5), (1)] 팀으로 3개
     System.out.println("답 : " + solution(stats2));
+
+    System.out.println(ZonedDateTime.ofInstant(new Date().toInstant(), ZoneId.of("UTC")).toOffsetDateTime().toString());
+
   }
 }
