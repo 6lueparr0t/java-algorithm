@@ -13,11 +13,11 @@ public class Java00003 {
 
     // Load Frequency Map (Element -> Count) and Used Set
       for (int i : A) {
-          if (dict.containsKey(i))
-              dict.put(i, dict.get(i) + 1);
-          else {
-              dict.put(i, 1);
-              used.add(i);
+          if (dict.containsKey(i)) {
+            dict.put(i, dict.get(i) + 1);
+          } else {
+            dict.put(i, 1);
+            used.add(i);
           }
       }
 
