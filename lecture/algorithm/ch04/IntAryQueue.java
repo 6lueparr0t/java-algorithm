@@ -79,6 +79,16 @@ public class IntAryQueue {
 		return num;
 	}
 
+  // 큐가 비어있는지
+  public boolean isEmpty() {
+    return num <= 0;
+  }
+
+  // 큐가 가득 찼는지
+  public boolean isFull() {
+    return num >= max;
+  }
+
   // 큐 안의 모든 데이터를 바닥 → 꼭대기 순서로 출력
 	public void dump() {
 		if (num <= 0)
@@ -137,7 +147,6 @@ public class IntAryQueue {
           break;
       }
     }
-
     scan.close();
   }
 }

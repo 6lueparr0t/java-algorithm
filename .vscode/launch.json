@@ -6,6 +6,20 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch LastNElements",
+        "request": "launch",
+        "mainClass": "LastNElements",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch IntQueueTester",
+        "request": "launch",
+        "mainClass": "IntQueueTester",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch Java00002",
         "request": "launch",
         "mainClass": "Java00002",

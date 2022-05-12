@@ -1,4 +1,4 @@
-public class IntQueue {
+public class IntDeque {
   
   private int max;
   private int front;
@@ -7,17 +7,17 @@ public class IntQueue {
   private int[] que;
 
   // 실행 시 예외 : 큐가 비어 있음
-  public class EmptyIntQueueException extends RuntimeException {
-    public EmptyIntQueueException() {}
+  public class EmptyIntDequeException extends RuntimeException {
+    public EmptyIntDequeException() {}
   }
 
   // 실행 시 예외 : 큐가 가득 참
-  public class OverflowIntQueueException extends RuntimeException {
-    public OverflowIntQueueException() {}
+  public class OverflowIntDequeException extends RuntimeException {
+    public OverflowIntDequeException() {}
   }
 
   // 생성자
-  public IntQueue(int capacity) {
+  public IntDeque(int capacity) {
     num = front = rear = 0;
     max = capacity;
 
@@ -29,9 +29,9 @@ public class IntQueue {
   }
 
   // 큐에 데이터를 인큐
-  public int enque(int x) throws OverflowIntQueueException {
+  public int enque(int x) throws OverflowIntDequeException {
     if (num >= max) {
-      throw new OverflowIntQueueException();
+      throw new OverflowIntDequeException();
     }
 
     que[rear++] = x;
@@ -45,9 +45,9 @@ public class IntQueue {
   }
 
   // 큐에서 데이터를 디큐
-  public int deque() throws EmptyIntQueueException {
+  public int deque() throws EmptyIntDequeException {
     if (num <= 0) {
-      throw new EmptyIntQueueException();
+      throw new EmptyIntDequeException();
     }
 
     int x = que[front++];
@@ -61,8 +61,8 @@ public class IntQueue {
   }
 
   // 큐에서 데이터를 피크(프론트 데이터를 들여다봄)
-  public int peek() throws EmptyIntQueueException {
-    if (num <= 0) throw new EmptyIntQueueException();
+  public int peek() throws EmptyIntDequeException {
+    if (num <= 0) throw new EmptyIntDequeException();
 
     return que[front];
   }
@@ -108,7 +108,7 @@ public class IntQueue {
       System.out.println("큐가 비어 있습니다.");
     } else {
       for (int i=0; i<num; i++) {
-        System.out.printf("%d ", que[(i+front) % max]);
+        System.out.printf("%d", que[(i+front) % max]);
       }
       System.out.println();
     }
