@@ -3,8 +3,7 @@ package exam;
 // you can also use imports, for example:
 import java.util.*;
 
-// you can write to stdout for debugging purposes, e.g.
-// System.out.println("this is a debug message");
+// 파일 타입 통계
 
 class Solution {
     enum FileType {

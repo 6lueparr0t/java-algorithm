@@ -1,3 +1,8 @@
+// 팀매칭하기 : 플레이어가 게임 대기실에 들어온 순서와 플레이어의 등급에 따라 팀을 자동으로 편성함
+// - 먼저 들어온 플레이어의 팀을 먼저 정함
+// - 새로 들어온 플레이어는 새 팀에 배정하거나, 혹은 모든 팀원의 등급이 해당하는 플레어의 등급보다 낮은 팀에만 배정할 수 있음
+// (숫자가 작을 수록 낮은 등급)
+
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;

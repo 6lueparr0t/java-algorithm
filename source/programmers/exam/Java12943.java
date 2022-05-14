@@ -1,5 +1,6 @@
 // https://programmers.co.kr/learn/courses/30/lessons/12943
 // 짝수면 2를 나누고, 홀수면 3을 곱하고 1을 더해서 1을 만든다.
+
 class Solution {
   public int solution(int num) {
       // long 타입을 꼭 확인하자

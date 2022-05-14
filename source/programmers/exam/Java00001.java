@@ -1,3 +1,12 @@
+// 등급 매기기
+// - scores 는 {"ABCDEF", "AABBCC", "AAFFF" ...} 이런 식으로 되어있음
+// - 등급의 순서는 다음과 같다.
+// -- F가 두개인 경우엔 그냥 탈락
+// -- AA 가 두개인 경우 패스
+// -- 등급별 점수를 매겨 최고 점수와 최하 점수를 뺀 평균이 3점 이상인 경우 합격
+//
+// 그래서 합격한 학생의 수를 구함
+
 class Solution {
   public int solution(String[] scores) {
       int answer = 0;

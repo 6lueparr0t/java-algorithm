@@ -1,8 +1,11 @@
+package exam;
+// https://www.geeksforgeeks.org/minimum-increment-operations-to-make-array-unique/
+
 import java.util.HashSet;
 import java.util.TreeMap;
 import java.util.Map.Entry;
 
-public class Java00003 {
+public class MinimumIncrement {
   // function to find minimum increment required
   static int minIncrementForUnique(int[] A)
   {
@@ -61,6 +64,6 @@ public class Java00003 {
   public static void main(String[] args)
   {
       int[] A = { 6, 2, 3, 5, 6, 3 };
-      System.out.print(minIncrementForUnique(A)); // 4가 나와야하는데 2가 나옴
+      System.out.print(minIncrementForUnique(A)); // 4가 나와야하는데 2가 나옴 -> 수정해야 될 부분
   }
 }
