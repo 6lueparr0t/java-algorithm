@@ -30,5 +30,10 @@ public class Java12935 {
         }
         
         return answer;
+
+        // 이런 방법도 있었다.
+        // if (arr.length <= 1) return new int[]{ -1 };
+        // int min = Arrays.stream(arr).min().getAsInt();
+        // return Arrays.stream(arr).filter(i -> i != min).toArray();
     }
 }
