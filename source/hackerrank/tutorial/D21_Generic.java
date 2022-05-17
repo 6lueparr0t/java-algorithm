@@ -9,7 +9,7 @@ class Printer <T> {
     **/
     
     // Write your code here
-    public static <T extends Object> void printArray(T[] generic) {
+    public <T extends Object> void printArray(T[] generic) {
         for (T t : generic) {
             System.out.println(t);
         }

@@ -6,7 +6,7 @@ import java.util.*;
 // binarySearch 활용
 
 class Solution {
-    public int solution(int[] A) {
+    public static int solution(int[] A) {
         // write your code in Java SE 8
         Arrays.sort(A);
         int key = 0;
@@ -14,9 +14,7 @@ class Solution {
             key = -A[i];
             int idx = Arrays.binarySearch(A, key);
 
-            if (idx < 0) {
-                break;
-            } else {
+            if (idx > 0) {
                 return key;
             }
         }

@@ -1,44 +1,48 @@
-package goorm.exam;
-import java.util.Stack;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 public class Java00001 {
-  public static String isValid(String input) {
-      String open = "{([";
-      String close = "})]";
-      
-      int sw = 0;
-      Stack<String> lastBracket = new Stack<>();
-      
-      String[] list = input.split("");
-      
-      for (int i=0; i<list.length; i++) {        
-        if (open.indexOf(list[i]) >= 0) {
-            sw++;
-            lastBracket.push(list[i]);
-            continue;
-        }
-
-        if (close.indexOf(list[i]) >= 0) {
-          if (lastBracket.size() <= 0) {
-            sw--;
-            break;
-          }
-          
-          if (open.indexOf(lastBracket.pop()) == close.indexOf(list[i])) sw--;
-        }
-      }
-
-      if (sw != 0) {
-        return "false";
-      } else {
-        return "true";
-      }
-  }
-
-  public static void main(String[] args) {
-    System.out.println(isValid("(]"));
-    System.out.println(isValid("(){}[]"));
-    System.out.println(isValid("((()))"));
-    System.out.println(isValid("((())))"));
-  }
+  public static final Scanner scanner = new Scanner(System.in);
+	public static void main(String[] args) throws Exception {
+		int n = Integer.parseInt(scanner.nextLine().trim()); // 송수신 기록의 수
+		String[] logs = new String[n]; // 송수신 기록
+		for(int i = 0 ; i < n ; i ++) {
+			logs[i] = scanner.nextLine().trim();
+		}
+		
+		int count = 1;
+		String repeat = "";
+		Map<Integer, Map<String, Integer>> history = new LinkedHashMap<>();
+		
+		for(int i = 0; i < logs.length; i++) {
+			Map<String, Integer> msgMap = new LinkedHashMap<>();
+			if(i+1<logs.length && logs[i].equals(logs[i+1])) {
+				if ("".equals(repeat)) repeat = logs[i];
+				count++;
+				continue;
+			} else if(count > 1) {
+				msgMap.put(repeat, count);
+				history.put(i, msgMap);
+				count = 1;
+				repeat = "";
+				continue;
+			}
+			
+			msgMap.put(logs[i], 1);
+			history.put(i, msgMap);
+		}
+		
+		System.out.println(history.size());
+		for (Integer msglist : history.keySet()) {
+			Map<String, Integer> list = history.get(msglist);
+			for (String msg : list.keySet()) {
+				if(list.get(msg) > 1) {
+					System.out.printf("%s (%d)\n", msg, list.get(msg));
+				} else {
+					System.out.println(msg);
+				}
+			}
+		}
+	}
 }

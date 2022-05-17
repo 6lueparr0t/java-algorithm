@@ -1,3 +1,5 @@
+package exam;
+
 import java.util.Arrays;
 
 // woowa 문제
