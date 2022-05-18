@@ -6,19 +6,13 @@
     "configurations": [
       {
         "type": "java",
-<<<<<<< HEAD
-        "name": "Launch LastNElements",
+        "name": "Launch Java00004",
         "request": "launch",
-        "mainClass": "LastNElements",
+        "mainClass": "Java00004",
         "projectName": "java-algorithm_8636df8"
       },
       {
         "type": "java",
-        "name": "Launch IntQueueTester",
-        "request": "launch",
-        "mainClass": "IntQueueTester",
-        "projectName": "java-algorithm_8636df8"
-=======
         "name": "Launch Java00004",
         "request": "launch",
         "mainClass": "Java00004",
@@ -30,7 +24,6 @@
         "request": "launch",
         "mainClass": "Java00002",
         "projectName": "java-algorithm_319ff5f3"
->>>>>>> 53ad130a54b87aa27f2ab15e2be246adb993a94e
       },
       {
         "type": "java",

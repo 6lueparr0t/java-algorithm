@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Java00002 {
+public class Java00004 {
   public static String isValid(String input) {
       String open = "{([";
       String close = "})]";
@@ -19,25 +19,30 @@ public class Java00002 {
 
         if (close.indexOf(list[i]) >= 0) {
           if (lastBracket.size() <= 0) {
-            sw--;
+            sw = -1;
             break;
           }
           
-          if (open.indexOf(lastBracket.pop()) == close.indexOf(list[i])) sw--;
+          if (open.indexOf(lastBracket.pop()) == close.indexOf(list[i])) {
+            sw--;
+          } else {
+            sw = -1;
+            break;
+          }
         }
       }
 
       if (sw != 0) {
-        return "false";
+        return "False";
       } else {
-        return "true";
+        return "True";
       }
   }
 
   public static void main(String[] args) {
-    System.out.println(isValid("(]"));
-    System.out.println(isValid("(){}[]"));
-    System.out.println(isValid("((()))"));
-    System.out.println(isValid("((())))"));
+    System.out.println(isValid("(]")); // False
+    System.out.println(isValid("(){}[]")); // True
+    System.out.println(isValid("((()))")); // True
+    System.out.println(isValid("((())))")); // False
   }
 }

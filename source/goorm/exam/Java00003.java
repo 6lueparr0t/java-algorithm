@@ -2,7 +2,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Java00001 {
+public class Java00003 {
   public static final Scanner scanner = new Scanner(System.in);
 	public static void main(String[] args) throws Exception {
 		int n = Integer.parseInt(scanner.nextLine().trim()); // 송수신 기록의 수
