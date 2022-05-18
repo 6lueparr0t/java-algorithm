@@ -15,10 +15,11 @@ public class Java00003 {
 		String repeat = "";
 		Map<Integer, Map<String, Integer>> history = new LinkedHashMap<>();
 		
-		for(int i = 0; i < logs.length; i++) {
+    int logLength = logs.length;
+		for(int i = 0; i < logLength; i++) {
 			Map<String, Integer> msgMap = new LinkedHashMap<>();
 
-			if(i+1<logs.length && logs[i].equals(logs[i+1])) {
+			if(i+1<logLength && logs[i].equals(logs[i+1])) {
 				if ("".equals(repeat)) repeat = logs[i];
 				count++;
 			} else if(count > 1) {
