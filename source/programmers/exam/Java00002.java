@@ -6,29 +6,28 @@
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Java00002 {
   public static int solution(int[] stats) {
-    List<List<Integer>> teams = new ArrayList<>();
+    Map<Integer, List<Integer>> teams = new HashMap<>();
 
+    int teamCount = 0;
+    boolean isNew = true;
     for(int i=0; i<stats.length; i++) {
       int test = stats[i];
-      
-      if(teams.size() == 0) {
-        List<Integer> newTeam = new ArrayList<>();
-        newTeam.add(stats[i]);
-        teams.add(newTeam);
-        continue;
-      }
 
-      boolean isNew = true;
-      for(int j=0; j<teams.size(); j++) {
-        List<Integer> team = teams.get(j);
-        if(team.stream().allMatch(player -> player < test)) {
+      isNew = true;
+      for(Map.Entry<Integer, List<Integer>> tmpTeams : teams.entrySet()) {
+        List<Integer> team = tmpTeams.getValue();
+        if(team.get(0) < test) {
           team.add(test);
-          teams.set(j, team);
+          Collections.sort(team, Collections.reverseOrder());
+          teams.put(tmpTeams.getKey(), team);
           isNew = false;
           break;
         }
@@ -37,20 +36,20 @@ public class Java00002 {
       if(isNew == true) {
         List<Integer> newTeam = new ArrayList<>();
         newTeam.add(test);
-        teams.add(newTeam);
+        teams.put(teamCount++, newTeam);
       }
     }
 
     System.out.println("\n팀원 구성");
-    for(List<Integer> team : teams) {
-      for(Integer player : team) {
+    for(Map.Entry<Integer, List<Integer>> team : teams.entrySet()) {
+      for(Integer player : team.getValue()) {
         System.out.print(player+", ");
       }
 
       System.out.println();
     }
 
-    return teams.size();
+    return teamCount;
   }
   
   public static void main(String[] args) {
