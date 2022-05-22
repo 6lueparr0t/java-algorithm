@@ -18,3 +18,11 @@ select total.name name, count(total.status) all_test_cases, count(case when stat
 from
 (SELECT * FROM test_groups as a LEFT JOIN test_cases as b ON a.name = b.group_name) as total group by total.name
 order by total_value desc, name asc
+
+SELECT
+A.ID, A.NAME, SUM(AMOUNT) as "결제 금액"
+FROM MERCHANTS as A INNER JOIN CARD_USAGES as B ON a.ID = b.MERCHANT_ID
+WHERE AMOUNT > 0
+GROUP BY B.MERCHANT_ID
+ORDER BY 3 DESC
+LIMIT 0, 5
