@@ -6,6 +6,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch ReverseArray",
+        "request": "launch",
+        "mainClass": "ReverseArray",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch Java12933",
         "request": "launch",
         "mainClass": "Java12933",
