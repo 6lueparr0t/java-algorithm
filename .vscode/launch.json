@@ -6,6 +6,20 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Launch Hanoi",
+        "request": "launch",
+        "mainClass": "Hanoi",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
+        "name": "Launch Recur",
+        "request": "launch",
+        "mainClass": "Recur",
+        "projectName": "java-algorithm_8636df8"
+      },
+      {
+        "type": "java",
         "name": "Launch EuclidGCD",
         "request": "launch",
         "mainClass": "EuclidGCD",
