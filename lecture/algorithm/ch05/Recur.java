@@ -84,14 +84,14 @@ public class Recur {
   */
 
   static void notRecur2(int n) {
-    IntStack nstk = new IntStack(n);
-		IntStack sstk = new IntStack(n);
+    IntStack numStack = new IntStack(n);
+		IntStack swStack = new IntStack(n);
 		int sw = 0;
 
 		while (true) {
 			if (n > 0) {
-				nstk.push(n);
-				sstk.push(sw);
+				numStack.push(n);
+				swStack.push(sw);
 
 				if (sw == 0)
 					n = n - 1;
@@ -102,15 +102,17 @@ public class Recur {
 				continue;
 			}
 
-			do {
-				n = nstk.pop();
-				sw = sstk.pop() + 1;
+			while(true) {
+				n = numStack.pop();
+				sw = swStack.pop() + 1;
 
 				if (sw == 2) {
 					System.out.printf("%d ", n);
-					if (nstk.isEmpty() == true || sstk.isEmpty() == true) return;
-				}
-			} while (sw == 2);
+					if (numStack.isEmpty() == true || swStack.isEmpty() == true) return;
+				} else {
+          break;
+        }
+			}
 		}
   }
 
