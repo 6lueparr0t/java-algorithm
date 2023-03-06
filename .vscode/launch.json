@@ -6,6 +6,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Balloon",
+        "request": "launch",
+        "mainClass": "exam.Balloon",
+        "projectName": "java-algorithm_eb7dcad7"
+      },
+      {
+        "type": "java",
         "name": "Launch Hanoi",
         "request": "launch",
         "mainClass": "Hanoi",
