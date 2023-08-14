@@ -26,7 +26,7 @@ public class IntStackTester {
           }
 
           break;
-        
+
         case 2:
           try {
             x = s.pop();

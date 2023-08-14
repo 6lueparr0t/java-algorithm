@@ -25,7 +25,7 @@ public class StringBinarySearch {
     int idx = Arrays.binarySearch(x, key);
 
     if (idx < 0) {
-      System.out.printf("해당 값이 없습니다. 삽입 포인트 : %d\n", -idx-1);
+      System.out.printf("해당 값이 없습니다. 삽입 포인트 : %d\n", -idx - 1);
     } else {
       System.out.printf("해당 키워드는 x[%d] 에 있습니다.\n", idx);
     }

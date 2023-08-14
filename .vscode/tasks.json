@@ -1,19 +1,26 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "java",
-			"targetPath": "${workspaceFolder}/bin/${fileBasenameNoExtension}.jar",
-			"elements": [
-				"${compileOutput}",
-				"${dependencies}"
-			],
-			"problemMatcher": [],
-			"label": "java: exportjar:${fileBasename}",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
-		}
-	]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile-java",
+      "type": "shell",
+      "command": "javac",
+      "args": ["-d", "out", "${file}"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "create-jar",
+      "type": "shell",
+      "command": "jar",
+      "args": ["cvf", "out/${fileBasenameNoExtension}.jar", "-C", "out", "."],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "dependsOn": "compile-java"
+    }
+  ]
 }

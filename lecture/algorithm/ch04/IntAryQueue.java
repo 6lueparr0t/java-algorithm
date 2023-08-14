@@ -7,12 +7,14 @@ public class IntAryQueue {
 
   // 실행 시 예외 : 큐가 비어 있음
   public class EmptyIntAryQueueException extends RuntimeException {
-    public EmptyIntAryQueueException() {}
+    public EmptyIntAryQueueException() {
+    }
   }
 
   // 실행 시 예외 : 큐가 가득 참
   public class OverflowIntAryQueueException extends RuntimeException {
-    public OverflowIntAryQueueException() {}
+    public OverflowIntAryQueueException() {
+    }
   }
 
   // 생성자
@@ -44,10 +46,9 @@ public class IntAryQueue {
     int result = queue[0];
     --num;
 
-    for(int i=0; i<queue.length-1; i++) {
-      queue[i] = queue[i+1];
+    for (int i = 0; i < queue.length - 1; i++) {
+      queue[i] = queue[i + 1];
     }
-
 
     return result;
   }
@@ -61,23 +62,23 @@ public class IntAryQueue {
     return queue[num - 1];
   }
 
-	// 큐에서 x를 찾아 인덱스(없으면 –1)를 반환 
-	public int indexOf(int x) {
-		for (int i = num - 1; i >= 0; i--)				// 정상 쪽에서 선형 검색
-			if (queue[i] == x)
-				return i;								// 검색 성공
-		return -1;										// 검색 실패
-	}
+  // 큐에서 x를 찾아 인덱스(없으면 –1)를 반환
+  public int indexOf(int x) {
+    for (int i = num - 1; i >= 0; i--) // 정상 쪽에서 선형 검색
+      if (queue[i] == x)
+        return i; // 검색 성공
+    return -1; // 검색 실패
+  }
 
   // 큐의 용량을 반환
-	public int capacity() {
-		return max;
-	}
+  public int capacity() {
+    return max;
+  }
 
-	// 큐에 쌓여 있는 데이터 수를 반환
-	public int size() {
-		return num;
-	}
+  // 큐에 쌓여 있는 데이터 수를 반환
+  public int size() {
+    return num;
+  }
 
   // 큐가 비어있는지
   public boolean isEmpty() {
@@ -90,15 +91,15 @@ public class IntAryQueue {
   }
 
   // 큐 안의 모든 데이터를 바닥 → 꼭대기 순서로 출력
-	public void dump() {
-		if (num <= 0)
-			System.out.println("큐가 비어 있습니다.");
-		else {
-			for (int i = 0; i < num; i++)
-				System.out.print(queue[i] + " ");
-			System.out.println();
-		}
-	}
+  public void dump() {
+    if (num <= 0)
+      System.out.println("큐가 비어 있습니다.");
+    else {
+      for (int i = 0; i < num; i++)
+        System.out.print(queue[i] + " ");
+      System.out.println();
+    }
+  }
 
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -125,7 +126,7 @@ public class IntAryQueue {
           }
 
           break;
-        
+
         case 2:
           try {
             x = s.pop();

@@ -39,7 +39,7 @@ class PhysExamSearch {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     PhyscData[] x = { // 키의 오름차순으로 정렬되어 있습니다.
-      new PhyscData("임대현", 186, 0.1),
+        new PhyscData("임대현", 186, 0.1),
         new PhyscData("이수민", 175, 2.0),
         new PhyscData("이호연", 174, 1.2),
         new PhyscData("전서현", 173, 0.7),
@@ -53,9 +53,9 @@ class PhysExamSearch {
     for (PhyscData i : x) {
       System.out.printf("%s\n", i.toString());
     }
-    
-    Arrays.sort(x, (a, b) -> (int)b.getVision() - (int)a.getVision());
-    
+
+    Arrays.sort(x, (a, b) -> (int) b.getVision() - (int) a.getVision());
+
     System.out.println("===== 정렬 후 =====");
     for (PhyscData i : x) {
       System.out.printf("%s\n", i.toString());

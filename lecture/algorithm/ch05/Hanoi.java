@@ -18,7 +18,7 @@ public class Hanoi {
     int n = scan.nextInt();
 
     move(n, 1, 3);
-    
+
     scan.close();
   }
 }

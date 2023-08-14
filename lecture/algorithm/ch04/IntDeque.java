@@ -1,5 +1,5 @@
 public class IntDeque {
-  
+
   private int max;
   private int front;
   private int rear;
@@ -8,12 +8,14 @@ public class IntDeque {
 
   // 실행 시 예외 : 큐가 비어 있음
   public class EmptyIntDequeException extends RuntimeException {
-    public EmptyIntDequeException() {}
+    public EmptyIntDequeException() {
+    }
   }
 
   // 실행 시 예외 : 큐가 가득 참
   public class OverflowIntDequeException extends RuntimeException {
-    public OverflowIntDequeException() {}
+    public OverflowIntDequeException() {
+    }
   }
 
   // 생성자
@@ -23,7 +25,7 @@ public class IntDeque {
 
     try {
       que = new int[max]; // 큐 본체용 배열을 생성
-    } catch (OutOfMemoryError e) {  // 생성할 수 없음
+    } catch (OutOfMemoryError e) { // 생성할 수 없음
       max = 0;
     }
   }
@@ -62,16 +64,18 @@ public class IntDeque {
 
   // 큐에서 데이터를 피크(프론트 데이터를 들여다봄)
   public int peek() throws EmptyIntDequeException {
-    if (num <= 0) throw new EmptyIntDequeException();
+    if (num <= 0)
+      throw new EmptyIntDequeException();
 
     return que[front];
   }
 
   // 큐에서 x를 검색하여 인덱스(찾지 못하면 -1) 를 반환
   public int indexOf(int x) {
-    for (int i=0; i<num; i++) {
+    for (int i = 0; i < num; i++) {
       int idx = (i + front) % max;
-      if (que[idx] == x) return idx;
+      if (que[idx] == x)
+        return idx;
     }
 
     return -1;
@@ -107,17 +111,17 @@ public class IntDeque {
     if (num <= 0) {
       System.out.println("큐가 비어 있습니다.");
     } else {
-      for (int i=0; i<num; i++) {
-        System.out.printf("%d", que[(i+front) % max]);
+      for (int i = 0; i < num; i++) {
+        System.out.printf("%d", que[(i + front) % max]);
       }
       System.out.println();
     }
   }
 
   public int search(int x) {
-    for (int i=0; i<num; i++) {
-      if(que[(i+front) % max] == x) {
-        return i+1;
+    for (int i = 0; i < num; i++) {
+      if (que[(i + front) % max] == x) {
+        return i + 1;
       }
     }
 

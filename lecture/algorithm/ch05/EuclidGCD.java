@@ -13,7 +13,7 @@ public class EuclidGCD {
   static long whileGcd(long x, long y) {
     long tmp = 0;
 
-    while(true) {
+    while (true) {
       if (y == 0) {
         return x;
       }
@@ -26,8 +26,8 @@ public class EuclidGCD {
 
   static int gcdArray(int[] a) {
     int result = a[0];
-    for(int i=1; i<a.length; i++) {
-      result = (int)whileGcd(result, a[i]);
+    for (int i = 1; i < a.length; i++) {
+      result = (int) whileGcd(result, a[i]);
     }
 
     return result;
@@ -49,8 +49,8 @@ public class EuclidGCD {
     int count = scan.nextInt();
 
     int[] a = new int[count];
-    
-    for(int i=0; i<count; i++) {
+
+    for (int i = 0; i < count; i++) {
       System.out.print("입력 : ");
       a[i] = scan.nextInt();
     }

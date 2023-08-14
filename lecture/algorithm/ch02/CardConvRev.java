@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 
 public class CardConvRev {
@@ -10,21 +9,21 @@ public class CardConvRev {
     System.out.printf("%d | %10d\n", r, x);
     System.out.printf("   + ----------\n");
     do {
-      if(x/r != 0) {
-        System.out.printf("%d | %10d ... %d\n", r, x/r, x%r);
+      if (x / r != 0) {
+        System.out.printf("%d | %10d ... %d\n", r, x / r, x % r);
         System.out.printf("   + ----------\n");
       } else {
-        System.out.printf("    %10d ... %d\n\n", x/r, x%r);
+        System.out.printf("    %10d ... %d\n\n", x / r, x % r);
       }
 
       d[digits++] = dchar.charAt(x % r);
       x /= r;
     } while (x != 0);
 
-    for(int i=0; i<digits/2; i++) {
+    for (int i = 0; i < digits / 2; i++) {
       char tmp = d[i];
-      d[i] = d[digits-i-1];
-      d[digits-i-1] = tmp;
+      d[i] = d[digits - i - 1];
+      d[digits - i - 1] = tmp;
     }
 
     return digits;
@@ -39,14 +38,15 @@ public class CardConvRev {
       x /= r;
     } while (x != 0);
 
-    for(int i=0; i<digits/2; i++) {
+    for (int i = 0; i < digits / 2; i++) {
       char tmp = d[i];
-      d[i] = d[digits-i-1];
-      d[digits-i-1] = tmp;
+      d[i] = d[digits - i - 1];
+      d[digits - i - 1] = tmp;
     }
 
     return digits;
   }
+
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
@@ -73,7 +73,7 @@ public class CardConvRev {
       // dno = cardConv(no, cd, cno);
 
       System.out.print(cd + "진수로는 ");
-			for (int i = 0; i < dno; i++) {
+      for (int i = 0; i < dno; i++) {
         System.out.print(cno[i]);
       }
       System.out.println("입니다.");

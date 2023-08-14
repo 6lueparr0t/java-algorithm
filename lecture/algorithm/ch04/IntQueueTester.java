@@ -26,7 +26,7 @@ public class IntQueueTester {
           }
 
           break;
-        
+
         case 2:
           try {
             x = s.deque();

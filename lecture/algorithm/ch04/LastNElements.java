@@ -19,10 +19,11 @@ public class LastNElements {
       } while (retry == 1);
 
       int i = cnt - N;
-      if (i < 0) i = 0;
+      if (i < 0)
+        i = 0;
 
-      for (; i<cnt; i++) {
-        System.out.printf("%2d 번째의 정수 = %d\n", i+1, a[i%N]);
+      for (; i < cnt; i++) {
+        System.out.printf("%2d 번째의 정수 = %d\n", i + 1, a[i % N]);
       }
 
       scan.close();

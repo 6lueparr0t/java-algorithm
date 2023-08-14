@@ -5,8 +5,9 @@ public class MaxOfArrayRand {
   public static int maxOf(int[] a) {
     int max = a[0];
 
-    for(int i=0; i<a.length; i++) {
-      if(a[i] > max) max = a[i];
+    for (int i = 0; i < a.length; i++) {
+      if (a[i] > max)
+        max = a[i];
     }
 
     return max;
@@ -22,7 +23,7 @@ public class MaxOfArrayRand {
 
     int[] height = new int[num];
 
-    for (int i=0; i<num; i++) {
+    for (int i = 0; i < num; i++) {
       height[i] = 130 + rand.nextInt(60);
       System.out.println("height[" + i + "] :" + height[i]);
     }

@@ -1,15 +1,16 @@
 {
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx8G -Xms100m",
     "java.project.sourcePaths": [
-      "source/programmers/exam",
-      "source/hackerrank/tutorial",
-      "source/goorm/exam",
-      "source/codility",
+      "src/0_programmers/_pccp",
+      "src/0_programmers/exam",
+      "src/1_codility",
+      "src/2_hackerrank/tutorial",
+      "src/3_goorm/exam",
       "lecture/java100/operator",
       "lecture/algorithm/ch05",
       "lecture/algorithm/ch04",
       "lecture/algorithm/ch03",
       "lecture/algorithm/ch02",
-      "source"
+      "src"
     ]
 }

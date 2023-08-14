@@ -11,7 +11,7 @@ public class Factorial {
 
   static long whileFactorial(long n) {
     long sum = 1;
-    while(true) {
+    while (true) {
       if (n == 0) {
         return sum;
       }
