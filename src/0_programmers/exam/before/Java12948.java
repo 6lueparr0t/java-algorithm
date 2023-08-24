@@ -1,4 +1,5 @@
 // https://programmers.co.kr/learn/courses/30/lessons/12948
+
 // 마지막 4자리 공개
 
 public class Java12948 {
@@ -10,7 +11,7 @@ public class Java12948 {
     // }
 
     // return String.valueOf(arr);
-    
+
     String phone_number = "0211116789";
     System.out.println(
         "*".repeat(phone_number.length() - 4)

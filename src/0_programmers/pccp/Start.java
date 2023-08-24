@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * 2023-08-25 시작
  */
-public class Day1 {
+public class Start {
   private static class PhoneNumber {
     public final String phoneNumber;
 
@@ -22,7 +22,8 @@ public class Day1 {
     // contains 에서 phoneNumber 랑 비교하기 위해 추가
     @Override
     public boolean equals(Object o) {
-      if (!(o instanceof PhoneNumber)) return false;
+      if (!(o instanceof PhoneNumber))
+        return false;
       return phoneNumber.equals(((PhoneNumber) o).phoneNumber);
     }
   }
@@ -44,7 +45,8 @@ public class Day1 {
     // 전화번호 형식이 아니면 추가하지 않고 false 반환
     public boolean addPhoneNumber(String number) {
       for (char c : number.toCharArray()) {
-        if (!Character.isDigit(c)) return false;
+        if (!Character.isDigit(c))
+          return false;
       }
 
       numbers.add(new PhoneNumber(number));
@@ -53,10 +55,10 @@ public class Day1 {
 
     @Override
     public String toString() {
-      return "Person{"+
-        "name='" + name + "', \n" +
-        "numbers=" + numbers + "\n" +
-        "}";
+      return "Person{" +
+          "name='" + name + "', \n" +
+          "numbers=" + numbers + "\n" +
+          "}";
     }
 
     public boolean hasPhoneNumber(PhoneNumber number) {
@@ -85,9 +87,9 @@ public class Day1 {
 
       // Stream 코드를 해석하면 다음과 같다.
       // for (Person p : people) {
-      //   if (p.hasPhoneNumber(number)) {
-      //     return p;
-      //   }
+      // if (p.hasPhoneNumber(number)) {
+      // return p;
+      // }
       // }
     }
   }

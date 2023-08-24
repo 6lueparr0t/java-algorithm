@@ -1,4 +1,3 @@
-
 // https://programmers.co.kr/learn/courses/30/lessons/92334
 import java.util.*;
 
@@ -24,7 +23,7 @@ public class Java92334 {
 
     // 값 확인용
     // for (String key : map.keySet()) {
-    //   System.out.println(String.format("키 : %s, 값 : %s", key, map.get(key)));
+    // System.out.println(String.format("키 : %s, 값 : %s", key, map.get(key)));
     // }
 
     for (int i = 0; i < id_list.length; i++) {

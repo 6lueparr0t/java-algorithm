@@ -4,11 +4,11 @@ public class Java12934 {
   public static long solution(long n) {
     long sqrt = (long) Math.sqrt(n);
 
-    if(sqrt*sqrt == n) {
-        sqrt++;
-        return sqrt*sqrt;
+    if (sqrt * sqrt == n) {
+      sqrt++;
+      return sqrt * sqrt;
     } else {
-        return -1;
+      return -1;
     }
   }
 }

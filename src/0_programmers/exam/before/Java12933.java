@@ -10,7 +10,7 @@ public class Java12933 {
     List<Long> list = new ArrayList<>();
 
     long repeat = n;
-    while(true) {
+    while (true) {
       list.add(repeat % 10);
       repeat /= 10;
 
@@ -31,7 +31,8 @@ public class Java12933 {
 
     // 이런 방법도 있다고 하는데 참고만..
     // res = "";
-    // Long.toString(n).chars().sorted().forEach(c -> res = Character.valueOf((char)c) + res);
+    // Long.toString(n).chars().sorted().forEach(c -> res =
+    // Character.valueOf((char)c) + res);
     // return Integer.parseInt(res);
   }
 
