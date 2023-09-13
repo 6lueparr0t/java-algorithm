@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Q01",
+      "request": "launch",
+      "mainClass": "Q01",
+      "projectName": "java-algorithm_eb7dcad7"
+    },
+    {
+      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"
