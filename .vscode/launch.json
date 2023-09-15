@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Java120956",
+      "request": "launch",
+      "mainClass": "exam.Java120956",
+      "projectName": "java-algorithm_eb7dcad7"
+    },
+    {
+      "type": "java",
       "name": "Q01",
       "request": "launch",
       "mainClass": "Q01",
