@@ -13,7 +13,6 @@ public class Java120956 {
         if (target.contains(b)) {
           len -= b.length();
         }
-        ;
       }
 
       if (len == 0)
@@ -31,10 +30,10 @@ public class Java120956 {
   }
 
   public static void main(String[] args) {
-    String[] case1 = {"aya", "yee", "u", "maa", "wyeoo"};
+    String[] case1 = { "aya", "yee", "u", "maa", "wyeoo" };
     show("case1", solution(case1));
 
-    String[] case2 = {"ayaye", "uuuma", "ye", "yemawoo", "ayaa"};
+    String[] case2 = { "ayaye", "uuuma", "ye", "yemawoo", "ayaa" };
     show("case2", solution(case2));
   }
 }
