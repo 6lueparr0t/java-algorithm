@@ -1,7 +1,7 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/120956?language=java
 package exam;
 
-public class Java120956 {
+public class Q01LV0Java120956 {
   public static int solution(String[] babbling) {
     String[] babblingList = { "aya", "ye", "woo", "ma" };
 
