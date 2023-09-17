@@ -1,4 +1,4 @@
-
+// https://school.programmers.co.kr/learn/courses/30/lessons/87377?language=java
 /**
  * 1. 모든 직선 쌍에 대해 반복
  * - a. 교점 좌표 구하기
