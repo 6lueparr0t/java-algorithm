@@ -19,7 +19,6 @@
 - Users > [사용자 명] > Library > Application Support > Code > User 에 있는 <code>setting.json</code> 파일에 아래와 같은 설정이 되어 있는지 확인한다.
 
 ```json
-// reference : https://github.com/redhat-developer/vscode-java/issues/2852
 {
   "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
   "java.configuration.runtimes": [
@@ -31,3 +30,5 @@
   ]
 }
 ```
+
+reference : https://github.com/redhat-developer/vscode-java/issues/2852
