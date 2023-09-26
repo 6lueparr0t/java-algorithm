@@ -1,7 +1,7 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/181832?language=java
 package exam;
 
-public class Q01LV0Java181832 {
+public class Q02 {
   public static int[][] solution(int n) {
     int[][] answer = {};
     return answer;
