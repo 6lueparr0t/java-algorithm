@@ -1,7 +1,7 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/000?language=java
 /**
  */
-public class Q4 {
+public class Q04 {
 
   public static int[][] solution(int[][] arr1, int[][] arr2) {
     int[][] arr = new int[arr1.length][arr2[0].length];
