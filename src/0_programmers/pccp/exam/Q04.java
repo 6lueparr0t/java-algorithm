@@ -30,16 +30,10 @@ public class Q04 {
   }
 
   public static void main(String[] args) {
-    int[] case1_arr1 = new int[]{49,13};
-    int[] case1_arr2 = new int[]{70,11,2};
-    show("case1", solution(case1_arr1, case1_arr2));
+    show("case1", solution(new int[] { 49, 13 }, new int[] { 70, 11, 2 }));
 
-    int[] case2_arr1 = new int[]{100, 17, 84, 1};
-    int[] case2_arr2 = new int[]{55, 12, 65, 36};
-    show("case2", solution(case2_arr1, case2_arr2));
+    show("case2", solution(new int[] { 100, 17, 84, 1 }, new int[] { 55, 12, 65, 36 }));
 
-    int[] case3_arr1 = new int[]{1,2,3,4,5};
-    int[] case3_arr2 = new int[]{3,3,3,3,3};
-    show("case3", solution(case3_arr1, case3_arr2));
+    show("case3", solution(new int[] { 1, 2, 3, 4, 5 }, new int[] { 3, 3, 3, 3, 3 }));
   }
 }
