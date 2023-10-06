@@ -1,7 +1,5 @@
-// https://school.programmers.co.kr/learn/courses/30/lessons/120812?language=java
+// https://school.programmers.co.kr/learn/courses/30/lessons/120813?language=java
 package exam;
-
-import java.util.Arrays;
 
 public class Q07 {
   public static int[] solution(int n) {
