@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Q07",
+      "request": "launch",
+      "mainClass": "exam.Q07",
+      "projectName": "java-algorithm_eb7dcad7"
+    },
+    {
+      "type": "java",
+      "name": "Q06",
+      "request": "launch",
+      "mainClass": "exam.Q06",
+      "projectName": "java-algorithm_eb7dcad7"
+    },
+    {
+      "type": "java",
       "name": "Q05",
       "request": "launch",
       "mainClass": "exam.Q05",
